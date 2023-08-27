@@ -37,6 +37,9 @@ bindkey -v '^?' backward-delete-char
 # enable colors in tmux 
 export TERM=xterm-256color
 
+# enable '#' comments
+setopt interactive_comments
+
 # add syntax highlighting
 source ~/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 export PATH="/usr/local/opt/ruby/bin:$PATH"
