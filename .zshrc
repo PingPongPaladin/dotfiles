@@ -29,6 +29,7 @@ alias szrc='source ~/.zshrc'
 alias jupylab='jupyter-lab'
 
 alias gs='git status'
+alias gb='git branch'
 alias gd='git diff'
 
 # enable vim bindings in zsh 
